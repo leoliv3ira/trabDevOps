@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="imagens/escudo-Corinthians.icon.webp" type="image/png">
+    <title>Calendário de jogos</title>
+    <style type="text/css">
+        h1{
+            text-align: center;
+            font-size: 45px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:white;
+            background-color:black;
+        }
+        h2{
+            margin-left: 20%;
+            margin-top: 20px;
+            font-size: 35px;
+            margin-top: -1520px;
+        }
+        .imglat{
+            margin-left: -10%;
+        }
+        /*propriedades jogo1*/
+        .b1{
+            border:4px;
+            color:black; 
+        }
+        .m1{
+            margin-top: 500px;
+            margin-left: 250px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .d1{
+            margin-left: 450px;
+            margin-top: -64px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .v1{
+            margin-left: 520px;
+            margin-top: -64px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .data1{
+            margin-left: 250px;
+            margin-top: -30px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        .e1{
+            margin-left: 250px;
+            margin-top: -20px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        /*propriedades jogo2*/
+        .b2{
+            border:4px;
+            color:black; 
+        }
+        .m2{
+            margin-top: -110px;
+            margin-left: 750px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .d2{
+            margin-left: 950px;
+            margin-top: -61px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .v2{
+            margin-left: 1023px;
+            margin-top: -67px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .data2{
+            margin-left: 750px;
+            margin-top: -31px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        .e2{
+            margin-left: 750px;
+            margin-top: -20px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        /*propriedades jogo3*/
+        .b3{
+            border:4px;
+            color:black; 
+        }
+        .m3{
+            margin-left: 250px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .d3{
+            margin-left: 450px;
+            margin-top: -64px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .v3{
+            margin-left: 520px;
+            margin-top: -64px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .data3{
+            margin-left: 250px;
+            margin-top: -30px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        .e3{
+            margin-left: 250px;
+            margin-top: -20px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+         /*propriedades jogo4*/
+         .b4{
+            border:4px;
+            color:black; 
+        }
+        .m4{
+            margin-top: -110px;
+            margin-left: 750px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .d4{
+            margin-left: 950px;
+            margin-top: -61px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .v4{
+            margin-left: 1023px;
+            margin-top: -67px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .data4{
+            margin-left: 750px;
+            margin-top: -31px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        .e4{
+            margin-left: 750px;
+            margin-top: -20px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+         /*propriedades jogo5*/
+         .b5{
+            border:4px;
+            color:black; 
+        }
+        .m5{
+            margin-left: 250px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .d5{
+            margin-left: 450px;
+            margin-top: -64px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .v5{
+            margin-left: 520px;
+            margin-top: -64px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .data5{
+            margin-left: 250px;
+            margin-top: -30px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        .e5{
+            margin-left: 250px;
+            margin-top: -20px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        /*propriedades jogo6*/
+        .b6{
+            border:4px;
+            color:black; 
+        }
+        .m6{
+            margin-top: -110px;
+            margin-left: 750px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .d6{
+            margin-left: 950px;
+            margin-top: -61px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .v6{
+            margin-left: 1023px;
+            margin-top: -67px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .data6{
+            margin-left: 750px;
+            margin-top: -31px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        .e6{
+            margin-left: 750px;
+            margin-top: -20px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        /*propriedades jogo7*/
+        .b7{
+            border:4px;
+            color:black; 
+        }
+        .m7{
+            margin-left: 250px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .d7{
+            margin-left: 450px;
+            margin-top: -64px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .v7{
+            margin-left: 520px;
+            margin-top: -64px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .data7{
+            margin-left: 250px;
+            margin-top: -30px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        .e7{
+            margin-left: 250px;
+            margin-top: -20px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+         /*propriedades jogo8*/
+         .b8{
+            border:4px;
+            color:black; 
+        }
+        .m8{
+            margin-top: -110px;
+            margin-left: 750px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .d8{
+            margin-left: 950px;
+            margin-top: -61px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .v8{
+            margin-left: 1023px;
+            margin-top: -67px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .data8{
+            margin-left: 750px;
+            margin-top: -31px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        .e8{
+            margin-left: 750px;
+            margin-top: -20px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+
+         /*propriedades jogo09*/
+         .b9{
+            border:4px;
+            color:black; 
+        }
+        .m9{
+            margin-left: 250px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .d9{
+            margin-left: 450px;
+            margin-top: -64px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .v9{
+            margin-left: 520px;
+            margin-top: -64px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .data9{
+            margin-left: 250px;
+            margin-top: -30px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        .e9{
+            margin-left: 250px;
+            margin-top: -20px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        /*propriedades jogo10*/
+        .b10{
+            border:4px;
+            color:black; 
+        }
+        .m10{
+            margin-top: -110px;
+            margin-left: 750px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .d10{
+            margin-left: 950px;
+            margin-top: -61px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .v10{
+            margin-left: 1023px;
+            margin-top: -67px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .data10{
+            margin-left: 750px;
+            margin-top: -31px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        .e10{
+            margin-left: 750px;
+            margin-top: -20px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        /*propriedades jogo11*/
+        .b11{
+            border:4px;
+            color:black; 
+        }
+        .m11{
+            margin-left: 250px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .d11{
+            margin-left: 450px;
+            margin-top: -64px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .v11{
+            margin-left: 520px;
+            margin-top: -64px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .data11{
+            margin-left: 250px;
+            margin-top: -30px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        .e11{
+            margin-left: 250px;
+            margin-top: -20px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+         /*propriedades jogo12*/
+         .b12{
+            border:4px;
+            color:black; 
+        }
+        .m12{
+            margin-top: -110px;
+            margin-left: 750px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .d12{
+            margin-left: 950px;
+            margin-top: -61px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .v12{
+            margin-left: 1023px;
+            margin-top: -67px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .data12{
+            margin-left: 750px;
+            margin-top: -31px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        .e12{
+            margin-left: 750px;
+            margin-top: -20px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+         /*propriedades jogo13*/
+         .b13{
+            border:4px;
+            color:black; 
+        }
+        .m13{
+            margin-top:0px;
+            margin-left: 250px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .d13{
+            margin-left: 425px;
+            margin-top: -64px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .v13{
+            margin-left: 520px;
+            margin-top: -64px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .data13{
+            margin-left: 250px;
+            margin-top: -30px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        .e13{
+            margin-left: 250px;
+            margin-top: -20px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        /*propriedades jogo14*/
+        .b14{
+            border:4px;
+            color:black; 
+        }
+        .m14{
+            margin-top: -115px;
+            margin-left: 750px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .d14{
+            margin-left: 950px;
+            margin-top: -61px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .v14{
+            margin-left: 1023px;
+            margin-top: -67px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .data14{
+            margin-left: 750px;
+            margin-top: -31px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        .e14{
+            margin-left: 750px;
+            margin-top: -20px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        /*propriedades jogo15*/
+        .b15{
+            border:4px;
+            color:black; 
+        }
+        .m15{
+            margin-left: 250px;
+            margin-top: 0px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .d15{
+            margin-left: 425px;
+            margin-top: -64px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .v15{
+            margin-left: 520px;
+            margin-top: -64px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .data15{
+            margin-left: 250px;
+            margin-top: -30px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        .e15{
+            margin-left: 250px;
+            margin-top: -20px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+         /*propriedades jogo16*/
+         .b16{
+            border:4px;
+            color:black; 
+        }
+        .m16{
+            margin-top:-115px;
+            margin-left: 750px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .d16{
+            margin-left: 950px;
+            margin-top: -61px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .v16{
+            margin-left: 1023px;
+            margin-top: -67px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .data16{
+            margin-left: 750px;
+            margin-top: -31px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        .e16{
+            margin-left: 750px;
+            margin-top: -20px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        /*propriedades jogo17*/
+        .b17{
+            border:4px;
+            color:black; 
+        }
+        .m17{
+            margin-left: 250px;
+            margin-top: 50px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .d17{
+            margin-left: 430px;
+            margin-top: -64px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .v17{
+            margin-left: 520px;
+            margin-top: -64px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .data17{
+            margin-left: 250px;
+            margin-top: -18px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        .e17{
+            margin-left: 250px;
+            margin-top: -18px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:red;
+        }
+        .set{
+            display: inline-block;
+            margin-left: 2%;
+            background-color: black;
+        }
+        .out{
+            display: inline-block;
+            margin-left: 2%;
+            background-color: black;
+        }
+        .nov{
+            display: inline-block;
+            margin-left: 2%;
+            background-color: black;
+        }
+        .dec{
+            display: inline-block;
+            margin-left: 2%;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Próximos jogos do SCCP:</h1>
+    
+    <div class="imglat">
+        <img src="imagens/imagemlateral.jpg">
+    </div>
+
+    <h2>Jogos:</h2>
+    <div class="b1">
+        <div class="m1">
+            <p>Corinthians</p>
+        </div>
+        <div class="d1">
+            <p> X </p>
+        </div>
+        <div class="v1">
+            <p> Botafogo</p>
+        </div>
+        <div class="data1">
+            <p>22/09/2023 - Campeonato Brasileiro</p>
+        </div>
+        <div class="e1">
+            <p>local: Neo Química Arena</p>
+        </div>
+    </div>
+
+
+    <div class="b2">
+        <div class="m2">
+            <p>Corinthians</p>
+        </div>
+        <div class="d2">
+            <p> X </p>
+        </div>
+        <div class="v2">
+            <p> Fortleza</p>
+        </div>
+        <div class="data2">
+            <p>26/09/2023 - Copa Sul-Americana</p>
+        </div>
+        <div class="e2">
+            <p>local: Neo Química Arena</p>
+        </div>
+    </div>
+
+
+    <div class="b3">
+        <div class="m3">
+            <p>São Paulo</p>
+        </div>
+        <div class="d3">
+            <p> X </p>
+        </div>
+        <div class="v3">
+            <p> Corinthians</p>
+        </div>
+        <div class="data3">
+            <p>30/09/2023 - Campeonato Brasileiro</p>
+        </div>
+        <div class="e3">
+            <p>local: Morumbi</p>
+        </div>
+    </div>
+
+
+    <div class="b4">
+        <div class="m4">
+            <p>Fortaleza</p>
+        </div>
+        <div class="d4">
+            <p> X </p>
+        </div>
+        <div class="v4">
+            <p> Corinthians</p>
+        </div>
+        <div class="data4">
+            <p>03/10/2023 - Copa Sul-Americana</p>
+        </div>
+        <div class="e4">
+            <p>local: Arena Castelão</p>
+        </div>
+    </div>
+
+
+    <div class="b5">
+        <div class="m5">
+            <p>Corinthians</p>
+        </div>
+        <div class="d5">
+            <p> X </p>
+        </div>
+        <div class="v5">
+            <p> Flamengo</p>
+        </div>
+        <div class="data5">
+            <p>07/10/2023 - Campeonato Brasileiro</p>
+        </div>
+        <div class="e5">
+            <p>local: Neo Química Arena</p>
+        </div>
+    </div>
+
+
+    <div class="b6">
+        <div class="m6">
+            <p>Fluminense</p>
+        </div>
+        <div class="d6">
+            <p> X </p>
+        </div>
+        <div class="v6">
+            <p>Corinthians</p>
+        </div>
+        <div class="data6">
+            <p>18/10/2023 - Campeonato Brasileiro</p>
+        </div>
+        <div class="e6">
+            <p>local: Maracã</p>
+        </div>
+    </div>
+
+
+    <div class="b7">
+        <div class="m7">
+            <p>Corinthians</p>
+        </div>
+        <div class="d7">
+            <p> X </p>
+        </div>
+        <div class="v7">
+            <p> América-MG</p>
+        </div>
+        <div class="data7">
+            <p>21/10/2023 - Campeonato Brasileiro</p>
+        </div>
+        <div class="e7">
+            <p>local: Neo Química Arena</p>
+        </div>
+    </div>
+
+
+    <div class="b8">
+        <div class="m8">
+            <p>Cuiabá</p>
+        </div>
+        <div class="d8">
+            <p> X </p>
+        </div>
+        <div class="v8">
+            <p> Corinthians</p>
+        </div>
+        <div class="data8">
+            <p>24/10/2023 - Campeonato Brasileiro</p>
+        </div>
+        <div class="e8">
+            <p>local: Arena Pantanal</p>
+        </div>
+    </div>
+
+
+    <div class="b9">
+        <div class="m9">
+            <p>Corinthians</p>
+        </div>
+        <div class="d9">
+            <p> X </p>
+        </div>
+        <div class="v9">
+            <p>Santos</p>
+        </div>
+        <div class="data9">
+            <p>28/10/2023 - Campeonato Brasileiro</p>
+        </div>
+        <div class="e9">
+            <p>local:Neo Química Arena</p>
+        </div>
+    </div>
+
+
+    <div class="b10">
+        <div class="m10">
+            <p>Corinthians</p>
+        </div>
+        <div class="d10">
+            <p> X </p>
+        </div>
+        <div class="v10">
+            <p> Athlético-PR</p>
+        </div>
+        <div class="data10">
+            <p>01/11/2023 - Campeonato Brasileiro</p>
+        </div>
+        <div class="e10">
+            <p>local: Neo Química Arena</p>
+        </div>
+    </div>
+
+
+    <div class="b11">
+        <div class="m11">
+            <p>Bragantino</p>
+        </div>
+        <div class="d11">
+            <p> X </p>
+        </div>
+        <div class="v11">
+            <p> Corinthians</p>
+        </div>
+        <div class="data11">
+            <p>04/11/2023 - Campeonato Brasileiro</p>
+        </div>
+        <div class="e11">
+            <p>local:Nabi Abi Chedid</p>
+        </div>
+    </div>
+
+
+    <div class="b12">
+        <div class="m12">
+            <p>Corinthians</p>
+        </div>
+        <div class="d12">
+            <p> X </p>
+        </div>
+        <div class="v12">
+            <p> Atlético-MG</p>
+        </div>
+        <div class="data12">
+            <p>08/11/2023 - Campeonato Brasileiro</p>
+        </div>
+        <div class="e12">
+            <p>local: Neo Química Arena</p>
+        </div>
+    </div>
+
+
+    <div class="b13">
+        <div class="m13">
+            <p>Grêmio</p>
+        </div>
+        <div class="d13">
+            <p> X </p>
+        </div>
+        <div class="v13">
+            <p> Corinthians</p>
+        </div>
+        <div class="data13">
+            <p>11/11/2023 - Campeonato Brasileiro</p>
+        </div>
+        <div class="e13">
+            <p>local: Arena do Grêmio</p>
+        </div>
+    </div>
+
+
+    <div class="b14">
+        <div class="m14">
+            <p>Corinthians</p>
+        </div>
+        <div class="d14">
+            <p> X </p>
+        </div>
+        <div class="v14">
+            <p> Bahia</p>
+        </div>
+        <div class="data14">
+            <p>22/11/2023 - Campeonato Brasileiro</p>
+        </div>
+        <div class="e14">
+            <p>local: Neo Química Arena</p>
+        </div>
+    </div>
+
+
+    <div class="b15">
+        <div class="m15">
+            <p>Vasco</p>
+        </div>
+        <div class="d15">
+            <p> X </p>
+        </div>
+        <div class="v15">
+            <p> Corinthians</p>
+        </div>
+        <div class="data15">
+            <p>25/11/2023 - Campeonato Brasileiro</p>
+        </div>
+        <div class="e15">
+            <p>local: São Januario</p>
+        </div>
+    </div>
+
+
+    <div class="b16">
+        <div class="m16">
+            <p>Corinthians</p>
+        </div>
+        <div class="d16">
+            <p> X </p>
+        </div>
+        <div class="v16">
+            <p> Internacional</p>
+        </div>
+        <div class="data16">
+            <p>29/11/2023 - Campeonato Brasileiro</p>
+        </div>
+        <div class="e16">
+            <p>local:Neo Química Arena</p>
+        </div>
+    </div>
+
+
+    <div class="b17">
+        <div class="m17">
+            <p>Coritiba</p>
+        </div>
+        <div class="d17">
+            <p> X </p>
+        </div>
+        <div class="v17">
+            <p>Corinthians</p>
+        </div>
+        <div class="data17">
+            <p>03/12/2023 - Campeonato Brasileiro</p>
+        </div>
+        <div class="e17">
+            <p>local: Couto Pereira</p>
+        </div>
+    </div>
+
+    <div class="set">
+        <img src="imagens/calendariosetembro.png">
+    </div>
+    <div class="out">
+        <img src="imagens/calendariooutrubro.png">
+    </div>
+    <div class="nov">
+        <img src="imagens/calendarionovembro.png">
+    </div>
+    <div class="dec">
+        <img src="imagens/calendariodezembro.png">
+    </div>
+    <p font size="5">Leonardo Souza de Oliveira <br>
+         RA:2201940<br>
+        EC 4°A noite
+    </p>
+</body>
+</html>
