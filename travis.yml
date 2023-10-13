@@ -1,0 +1,6 @@
+x = int(input("primeiro numero:"))
+y=  int(input("segundo numero:"))
+
+total = (x + y)
+print(f"A soma dos numeros é {total}")
+
