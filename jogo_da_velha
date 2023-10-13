@@ -9,7 +9,7 @@ def jogo_da_velha():
             print("Escolha inválida. Tente novamente.")
         else:
             computador = random.choice(opcoes)
-            print(f"Computador escolheu: {computador}"#falta o parenteses
+            print(f"Computador escolheu: {computador}")
             print(f"Você escolheu: {jogador}")
 
             if jogador == computador:
