@@ -22,7 +22,7 @@ def jogo_da_velha():
                 print("Você venceu!")
             else:
                 print("Computador venceu!")
-
+       
         jogar_novamente = input("Deseja jogar novamente? (Sim/Não): ").capitalize()
         if jogar_novamente != "Sim":
             break
