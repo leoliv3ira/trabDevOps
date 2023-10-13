@@ -1,4 +1,5 @@
 import random
+
 def jogo_da_velha():
     opcoes = ["Pedra", "Papel", "Tesoura"]
 
