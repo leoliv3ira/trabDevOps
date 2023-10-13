@@ -1,6 +1,13 @@
-x = int(input("primeiro numero:"))
-y=  int(input("segundo numero:"))
+xlanguage: python
 
-total = (x + y)
-print(f"A soma dos numeros é {total}")
+python:
+  - "3.7"
+
+install:
+  - pip install -r requirements.txt
+
+script:
+  - python script_do_integrante.py
+  - python outro_script_do_integrante.py
+  # Adicione uma linha para cada script dos integrantes
 
