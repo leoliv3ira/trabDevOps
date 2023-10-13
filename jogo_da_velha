@@ -2,6 +2,7 @@ import random
 
 def jogo_da_velha():
     opcoes = ["Pedra", "Papel", "Tesoura"]
+    
 
     while True:
         jogador = input("Escolha Pedra, Papel ou Tesoura: ").capitalize()
