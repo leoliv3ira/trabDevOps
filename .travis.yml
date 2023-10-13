@@ -1,13 +1,17 @@
-language: python
-
-python:
-  - "3.7"
-
-install:
-  - pip install -r jogo_da_velha
-
-script:
-  - jogo_da_velha
-
-  # Adicione uma linha para cada script dos integrantes
+{
+  "language": "python",
+  "os": [
+    "linux"
+  ],
+  "dist": "xenial",
+  "python": [
+    "3.7"
+  ],
+  "install": [
+    "pip install -r jogo_da_velha"
+  ],
+  "script": [
+    "jogo_da_velha"
+  ]
+}
 
