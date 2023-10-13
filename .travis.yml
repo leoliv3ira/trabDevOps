@@ -1,6 +1,15 @@
-language: python
-sudo: false
-python:
-- 2.7
-- 3.4
-script: jogo_da_velha
+{
+language: "python",
+os: [
+    "linux"
+  ],
+dist: "xenial",
+sudo: false,
+python: [
+    "2.7",
+    "3.4"
+  ],
+script: [
+    "jogo_da_velha"
+  ]
+}
