@@ -1,10 +1,6 @@
-language: "python",
- python: 
- - "3.6"
-
- services:
-   - python
-  
-before script: pip install jogo_da_velha
-
-
+language: python
+sudo: false
+python:
+- 2.7
+- 3.4
+script: py.test -v
