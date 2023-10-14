@@ -1,9 +1,20 @@
 language: python
-python:
-  - "3.4"
 
-before_script: 
-  - cd src
+python:
+
+- "2.7"
+
+- "3.3"
+
+- "3.4"
+
+cache: pip
+
+install:
+
+- pip install -r requirements.txt
 
 script:
-  - python testes.py
+
+- py.test --cov-report term-missing --cov app
+-v
