@@ -27,6 +27,5 @@ def jogo_da_velha():
         if jogar_novamente != "Sim":
             break
 
-        
 if __name__ == "__main__":
     jogo_da_velha()
